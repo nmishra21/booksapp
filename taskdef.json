@@ -25,7 +25,12 @@
       "command": null,
       "linuxParameters": null,
       "cpu": 0,
-      "environment": [],
+      "environment": [
+        {
+          "name": "Profile",
+          "value": "dev"
+        }
+      ],
       "resourceRequirements": null,
       "ulimits": null,
       "dnsServers": null,
@@ -64,7 +69,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:046422318989:task-definition/booksapp-task:2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:046422318989:task-definition/booksapp-task:3",
   "family": "booksapp-task",
   "requiresAttributes": [
     {
@@ -122,7 +127,7 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "256",
-  "revision": 2,
+  "revision": 3,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
