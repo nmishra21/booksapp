@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 public class BooksController {
 
    private static final Book[] books = {
-       new Book(1L, "Nemesis", "Isaac Asimov Test"),
+       new Book(1L, "Nemesis", "Isaac Asimov jan9 2:12"),
        new Book(2L, "Great Expectations", "Charles Dickens"),
        new Book(3L, "The Chronicles of Narnia", "C.S. Lewis")
    };
