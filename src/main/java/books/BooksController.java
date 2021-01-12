@@ -13,7 +13,7 @@ public class BooksController {
        new Book(1L, "Nemesis", "Isaac Asimov"),
        new Book(2L, "Great Expectations", "Charles Dickens"),
        new Book(3L, "The Chronicles of Narnia", "C.S. Lewis"),
-       new Book(4L, "Coming Soon", "Naveen Mishra")
+       new Book(4L, "Coming Soon", "Naveen")
    };
 
    @GetMapping("/books")
